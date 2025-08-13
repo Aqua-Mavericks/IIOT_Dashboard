@@ -57,7 +57,6 @@ The system continuously monitors critical water parameters like **pH**, **TDS**,
 ---
 
 ## System Architecture
-## System Architecture
 ```plaintext
 Sensors → PLC (S7-200 SMART) → Node-RED Dashboard → Operators / Cloud
 ```
