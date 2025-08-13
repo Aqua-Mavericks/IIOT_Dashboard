@@ -25,16 +25,16 @@ The system continuously monitors critical water parameters like **pH**, **TDS**,
 
 ## Repository Structure
 ```plaintext
-/webpage
-    index.html          # Project webpage
-    style.css           # Web styling
-    script.js           # Animations and interactivity
-
 /node-red
     AQUA MAVERICK - NodeRed.json   # Node-RED flow for dashboard
 
 /plc
     AQUA MAVERICK - PLC PROGRAM.smart  # Siemens S7-200 SMART PLC program
+
+/webpage
+    index.html          # Project webpage
+    style.css           # Web styling
+    script.js           # Animations and interactivity
 ```
 
 ---
