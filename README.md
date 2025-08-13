@@ -68,7 +68,7 @@ Sensors → PLC (S7-200 SMART) → Node-RED Dashboard → Operators / Cloud
 ---
 
 ## Related Projects
-- 🤖 **Machine Learning Module** — [ML Models]([https://github.com/Aqua-Mavericks/ML-Build])
+- 🤖 **Machine Learning Module** — [ML Models](https://github.com/Aqua-Mavericks/ML-Build)
 
 ---
 
