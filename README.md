@@ -17,6 +17,7 @@ The system continuously monitors critical water parameters like **pH**, **TDS**,
 - 📊 **Node-RED Dashboard** — Real-time and historical water quality monitoring  
 - ⚙️ **PLC Program** — Controls valves, triggers alarms, and manages process logic  
 - 💾 **Data Logging** — Stores sensor readings locally and for cloud sync  
+- ☁️ **Cloud Integration (MindConnect)** — Secure connection to Siemens MindSphere for remote monitoring and analytics  
 - 🛡 **Safety Control** — Automated valve control based on SAFE/UNSAFE logic  
 - 🔗 **Integration Ready** — Can connect with ML models for anomaly detection and maintenance forecasting ([ML Repo](https://github.com/ORG_NAME/aqua-maverick-ml))
 
@@ -58,11 +59,12 @@ The system continuously monitors critical water parameters like **pH**, **TDS**,
 
 ## System Architecture
 ```plaintext
-Sensors → PLC (S7-200 SMART) → Node-RED Dashboard → Operators / Cloud
+Sensors → PLC (S7-200 SMART) → Node-RED Dashboard → MindConnect → MindSphere Cloud → Operators
 ```
-- PLC handles **real-time safety control**.
-- Node-RED manages **visualization and data logging**.
-- Webpage provides **project context and quick access**.
+- PLC handles **real-time safety control**.  
+- Node-RED manages **visualization and data logging**.  
+- MindConnect securely transfers data to **Siemens MindSphere Cloud** for remote monitoring and analytics.  
+- Webpage provides **project context and quick access**.  
 - Optional ML module can connect via API for advanced analytics.
 
 ---
