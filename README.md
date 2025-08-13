@@ -19,7 +19,7 @@ The system continuously monitors critical water parameters like **pH**, **TDS**,
 - 💾 **Data Logging** — Stores sensor readings locally and for cloud sync  
 - ☁️ **Cloud Integration (MindConnect)** — Secure connection to Siemens MindSphere for remote monitoring and analytics  
 - 🛡 **Safety Control** — Automated valve control based on SAFE/UNSAFE logic  
-- 🔗 **Integration Ready** — Can connect with ML models for anomaly detection and maintenance forecasting ([ML Repo](https://github.com/ORG_NAME/aqua-maverick-ml))
+- 🔗 **Integration Ready** — Can connect with ML models for anomaly detection and maintenance forecasting ([ML Repo](https://github.com/Aqua-Mavericks/ML-Build) and [ML Classifier](https://github.com/SatyamChoudhary1909/industrial-water-safety-classifier))
 
 ---
 
